@@ -15,6 +15,6 @@ class Author
       post.author = self
       @@post_count += 1
     end
-  end
+  
 
 end
