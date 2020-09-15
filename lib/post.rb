@@ -6,6 +6,11 @@ class Post
     @name = name
     @save = save
   end
+
+  def self.all
+    @@all
+  end
+  
   def save
       @@all << self
     end
