@@ -12,7 +12,7 @@ class Song
       @artist.name
     end
   end
-  
+
   def self.all
     @@all
   end
