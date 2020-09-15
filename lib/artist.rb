@@ -20,7 +20,6 @@ class Artist
   def add_song_by_name(name)
     s = Song.new(name)
     self.add_song(s)
-    @songs << s
     s
   end
 
